@@ -1,0 +1,11 @@
+
+	/* This method can be implemented the same way as doGetUser.Instead of 
+   * using the createUserFromExternal(loginId) you can extend the 
+   * SampleExternalProxy to implement a specific 
+   * createUserFromExternalUsingDeviceId(uniqueDeviceId). 
+	* For now we will assume that the string loginId can be replaced by a search 
+   * key ID and it will return the matching profile. 
+	 */ 
+	protected User doGetUserByUniqueDeviceId(String inUniqueDeviceId) throws UserProfileResourceException { 
+		return doGetUser(inUniqueDeviceId); 
+	} 
