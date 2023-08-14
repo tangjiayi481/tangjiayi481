@@ -1,0 +1,8 @@
+);
+            getSchema( conn );
+            dumpSchema( conn );
+
+        } catch( ULjException exc ) {
+            Demo.displayException( exc );
+        }
+    }
