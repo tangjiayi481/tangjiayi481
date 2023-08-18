@@ -1,0 +1,9 @@
+if (GET_BILLING_INFO_RESPONSE == EXCEPTION) 
+      throw new NullPointerException("Developer Null Pointer"); 
+ 
+    if (GET_BILLING_INFO_RESPONSE == BILLING_EXCEPTION) 
+      throw new BillingException("Developer Billing Exception"); 
+ 
+    // Set IsAuthorizeNeeded flag 
+    inBillingInfo.setAuthorizeNeeded(true); 
+    return inBillingInfo; 
