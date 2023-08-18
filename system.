@@ -1,0 +1,7 @@
+** 
+   * This is used to log debug, warning, and error messages to the 
+   * logging system. 
+   */ 
+  private static final LogCategory sLog = 
+    LogCategory.getLog("BillingManager"); 
+ 
