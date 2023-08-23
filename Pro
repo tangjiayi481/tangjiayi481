@@ -1,0 +1,6 @@
+ // Export if the filename is specified 
+    String outFilename = 
+      properties.getProperty("ExportToFile.FileName"); 
+    if (outFilename != null) 
+    { 
+      FileOutputStream fileOutStream = null; 
