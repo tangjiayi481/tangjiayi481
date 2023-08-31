@@ -1,0 +1,4 @@
+ selector = null; 
+    else if (selector.trim().length() == 0) 
+      selector = null; 
+    else if (selector.trim().e
